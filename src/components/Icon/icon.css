@@ -1,0 +1,40 @@
+.Icon {
+    width: 40px;
+    height: 38px;
+    line-height: 38px;
+    background: #ED8D38;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+} 
+.Icon-Check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 18px;
+    width: 10px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+.Icon-Plus:before,
+.Icon-Plus:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+.Icon-Plus:before{
+    top: 20%;
+    left: 50%;
+    width: 6px;
+    height: 60%;
+    margin-left: -3px;
+}
+
+.Icon-Plus:after{
+    top: 50%;
+    left: 20%;
+    width: 60%;
+    height: 6px;
+    margin-top: -3px;
+}
+    

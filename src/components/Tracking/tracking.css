@@ -1,0 +1,60 @@
+.Tracking-content {
+    display: flex;
+    align-items: center;
+}
+.Tracking-check {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.Tracking-item {
+    width: 100%;
+    display: flex;
+    background: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.Tracking-item-date {
+    color: #999;
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 10px 15px 10px 10px;
+}
+.Tracking-item-delivering {
+    text-align: center;
+    padding: 10px 20px;
+    width: 300px;
+    border-right: 2px solid #ccc;
+}
+.Tracking-item-delivering span {
+    color: #999;
+    display: inline-block;
+}
+.Tracking-item-price {
+    color: #999;
+    margin: 0 20px;
+    font-size: 2em;
+    flex-grow: 1;
+    padding-left: 20px;
+}
+.Tracking-item-img {
+    padding-left: 30px;
+}
+.Tracking-item-items {
+    width: 100px;
+    padding-left: 20px;
+}
+.Tracking-item-items-text {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    font-size: .5em;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    background: #ED5355;
+}

@@ -1,0 +1,63 @@
+.AsideTop {
+    padding-bottom: 10px;
+}
+.AsideTop-logo img {
+    margin: 0 auto;
+    display: block;
+}
+.AsideMiddle {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.AsideMiddle-filters {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    color: #777;
+    font-size: .9em;
+}
+.AsideMiddle-filters-img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.AsideMiddle-info {
+    padding-top: 15px;
+}
+.AsideMiddle-grid {
+    display: flex;
+    align-items: center;
+}
+.AsideMiddle-check {
+    width: 70px;
+    background: #183947;
+    height: 35px;
+    border-radius: 50em;
+}
+.AsideMiddle-check-circle {
+    display: inline-block;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50em;
+    box-shadow: -1px 2px 2px #333;
+}
+.AsideBottom-text {
+    color: #555;
+    text-align: center;
+    padding: 15px 0;
+}
+.AsideBottom-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.AsideBottom-button button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
